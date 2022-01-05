@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+
+
+    android:background="#FFFFFF">
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="125dp"
+        android:src="@drawable/icon_siswa"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="150dp"/>
+
+
+    <TextView
+        android:id="@+id/siswa"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="163dp"
+        android:layout_marginTop="279dp"
+        android:gravity="top"
+        android:text="Siswa"
+        android:textColor="#D13939"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/petugas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="155dp"
+        android:layout_marginTop="461dp"
+        android:gravity="top"
+        android:text="Petugas"
+        android:textColor="#D13939"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/admin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="162dp"
+        android:layout_marginTop="629dp"
+        android:gravity="top"
+        android:text="Admin"
+        android:textColor="#D13939"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="125dp"
+        android:src="@drawable/icon_petugas"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="325dp"/>
+
+    <ImageView
+        android:layout_width="130dp"
+        android:layout_height="125dp"
+        android:src="@drawable/icon_admin"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="135dp"
+        android:layout_marginTop="500dp"/>
+
+    <TextView
+        android:id="@+id/pilih_salah"
+        android:layout_width="268dp"
+        android:layout_height="33dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="73dp"
+        android:layout_marginTop="62dp"
+        android:textSize="30sp"
+        android:textColor="#D13939"
+        android:textStyle="bold"
+        android:gravity="top"
+        android:text="PILIH SALAH SATU" />
+
+</RelativeLayout>
+
+
