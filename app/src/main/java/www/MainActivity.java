@@ -1,8 +1,10 @@
-package www.smktelkommlg.sch.spp;
+package www;
 
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import www.smktelkommlg.sch.spp.R;
 
 public class MainActivity extends AppCompatActivity {
 
